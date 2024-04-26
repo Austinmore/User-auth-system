@@ -1,26 +1,27 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+Project Name
+Description of your project goes here. Explain the purpose of the project and any high-level information about the technologies used (NestJS, Prisma, PostgreSQL, JWT for authentication, Swagger for API documentation).
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Technologies Used
+NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
+Prisma: Next-generation ORM for Node.js and TypeScript, making database access easy with an auto-generated query builder for TypeScript & Node.js.
+PostgreSQL: Robust, open-source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
+Swagger: API documentation tool that helps developers design, build, document, and consume RESTful web services.
+Getting Started
+These instructions will get your copy of the project up and running on your local machine for development and testing purposes.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Prerequisites
+What things you need to install the software and how to install them:
+
+Node.js
+PostgreSQL
+A package manager like npm or yarn
+Installing
+A step-by-step series of examples that tell you how to get a development environment running:
+
+Clone the repository:
+git clone https://yourprojectrepository.com
+cd project-name
+
 
 ## Description
 
@@ -57,6 +58,28 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+Set up the database:
+Ensure PostgreSQL is running.
+Create a new database for the project.
+Configure your .env file with the database connection details
+
+DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=public"
+
+Run Prisma migrations:
+npx prisma migrate dev
+
+Generate the Prisma client:
+npx prisma generate
+
+Running the Application
+Start the server:
+
+npm run start:dev
+
+Access the Swagger UI:
+Visit http://localhost:3000/api in your browser to view the Swagger UI and interact with the API.
+
 
 ## Support
 
