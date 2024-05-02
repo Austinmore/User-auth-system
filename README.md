@@ -1,4 +1,3 @@
-Project Name
 A user authentication system using jwt.
 Technologies Used
 NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
