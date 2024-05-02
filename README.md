@@ -1,4 +1,3 @@
-Project Name
 A user authentication system using jwt.
 Technologies Used
 NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
@@ -79,3 +78,18 @@ npm run start:dev
 Access the Swagger UI:
 Visit http://localhost:3000/api in your browser to view the Swagger UI and interact with the API.
 
+
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
+/ /. ;c; .c; lc;lc
