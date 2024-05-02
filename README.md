@@ -1,6 +1,5 @@
 Project Name
-Description of your project goes here. Explain the purpose of the project and any high-level information about the technologies used (NestJS, Prisma, PostgreSQL, JWT for authentication, Swagger for API documentation).
-
+A user authentication system using jwt.
 Technologies Used
 NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
 Prisma: Next-generation ORM for Node.js and TypeScript, making database access easy with an auto-generated query builder for TypeScript & Node.js.
@@ -94,3 +93,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+/ /. ;c; .c; lc;lc
